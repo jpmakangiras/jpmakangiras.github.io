@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="{{ site.description }}">
+	<meta name="author" content="{{ site.name }}">
+
+	<title>{{ page.title }}</title>
+
+	<!-- Bootstrap Core CSS -->
+	<link href="../assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+	<!-- Custom CSS -->
+	<link href="../assets/blog.css" rel="stylesheet">
+
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Rosario" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Istok+Web" rel="stylesheet">
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-8 col-md-10 mx-auto">
+				{% for post in site.posts %}
+				<div class="post-preview">
+					<a href="{{ post.url }}">
+						<h2 class="post-title title">
+							{{ post.title }}
+						</h2>
+					</a>
+					<p class="post-meta meta">{{ post.date | date: "%B %d, %Y" }}</p>
+				</div>
+				{% endfor %}
+			</div>
+		</div>
+		{% include footer.html %}
+	</div>
+</body>
+</html>

@@ -1,0 +1,10 @@
+#Site Information
+title: jpmakangiras
+description: Personal Blog
+name: Julio Pratama Makangiras
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+
+plugins_dir: jekyll-assets

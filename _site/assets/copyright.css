@@ -1,0 +1,99 @@
+body {
+  font-size: 20px;
+  color: #212529;
+}
+
+a {
+  color: #e95420 !important;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s; }
+  a:focus, a:hover {
+    color: #e95420; }
+
+header.masthead {
+  margin-bottom: 10px;
+  background-color: #ffffff;
+  position: relative;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+  header.masthead .page-heading,
+  header.masthead .post-heading {
+    padding: 35px 0 75px;
+    color: black; }
+    @media only screen and (min-width: 768px) {
+      header.masthead .page-heading,
+      header.masthead .post-heading {
+        padding: 50px 0; } }
+  header.masthead .page-heading {
+    text-align: center; }
+    header.masthead .page-heading h1 {
+      font-size: 50px;
+      margin-top: 0; }
+    header.masthead .page-heading {
+      font-size: 24px;
+      font-weight: 300;
+      line-height: 1.1;
+      display: block;
+      margin: 0 auto;
+      font-family: 'Istok Web', sans-serif; }
+    @media only screen and (min-width: 768px) {
+      header.masthead .page-heading h1{
+        font-size: 60px; } }
+  header.masthead .post-heading h1 {
+    font-size: 35px; }
+  header.masthead .post-heading .meta,
+  header.masthead .post-heading {
+    line-height: 1.1;
+    display: block; }
+  header.masthead .post-heading .meta {
+    font-size: 15px;
+    font-weight: 300;
+    font-style: italic;
+    font-family: 'Rosario', sans-serif; }
+    header.masthead .post-heading .meta a {
+      color: #000; }
+  @media only screen and (min-width: 768px) {
+    header.masthead .post-heading h1 {
+      font-size: 45px; }
+    header.masthead .post-heading  {
+      font-size: 30px; } }
+
+.post-preview > a {
+  color: #212529; }
+  .post-preview > a:focus, .post-preview > a:hover {
+    text-decoration: none;
+    color: #e95420; }
+  .post-preview > a > .post-title {
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 10px; }
+  .post-preview > a > .post-subtitle {
+    font-weight: 300;
+    margin: 0 0 10px; }
+
+.post-preview > .post-meta {
+  font-size: 18px;
+  font-style: italic;
+  margin-top: 0;
+  color: #868e96; }
+  .post-preview > .post-meta > a {
+    text-decoration: none;
+    color: #212529; }
+    .post-preview > .post-meta > a:focus, .post-preview > .post-meta > a:hover {
+      text-decoration: underline;
+      color: #e95420; }
+
+@media only screen and (min-width: 768px) {
+  .post-preview > a > .post-title {
+    font-size: 36px; } }
+
+.title {
+  font-family: 'Rosario', sans-serif;
+}
+
+.content {
+  font-family: 'Istok Web', sans-serif;
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="Personal Blog">
+	<meta name="author" content="Julio Pratama Makangiras">
+	<title>Setting Custom Domain Untuk Github Pages</title>
+
+	<!-- Custom CSS -->
+	<link href="../../../assets/post.css" rel="stylesheet">
+
+	<!-- Bootstrap Core CSS -->
+	<link href="../../../assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+	<!-- Google Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Rosario" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Istok+Web" rel="stylesheet">
+</head>
+<body>
+
+	<!-- Page Header -->
+	<header class="masthead">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 col-md-10 mx-auto">
+					<div class="post-heading">
+						<h1 class="title">Setting Custom Domain Untuk Github Pages</h1>
+						<span class="meta">January 01, 2018</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<!-- Post Content -->
+	<article>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 col-md-10 mx-auto content">
+					<p>Agar <a href="https://pages.github.com/">Github Pages</a> yang dimiliki mengarah ke sebuah domain pribadi, kita perlu melakukan  beberapa pengaturan dari repo github pages dan penyedia layanan domain.</p>
+
+<ol>
+  <li>
+    <p>Masuk ke repo github pages anda, lalu klik <em>settings</em> dan pada pilihan custom domain silakan masukkan domain pribadi yang dimiliki 
+<img src="../../../assets/img/art01/01.png" alt="Alt" title="pengaturan cname" class="img-responsive" /></p>
+  </li>
+  <li>
+    <p>Setelah klik <em>save</em> maka secara otomatis akan ada sebuah file baru dengan nama CNAME di repo anda</p>
+  </li>
+  <li>
+    <p>Langkah selanjutnya adalah masuk ke halaman penyedia domain anda lalu pilih menu yang berkaitan dengan DNS dan atur DNSnya seperti ini
+<img src="../../../assets/img/art01/02.png" alt="Alt" title="pengaturan dns" class="img-responsive" /></p>
+  </li>
+  <li>
+    <p>Tunggu sekitar 5-10 menit atau bahkan lebih untuk melihat hasilnya, tergantung masa propagansi dns.</p>
+  </li>
+</ol>
+
+				</div>
+			</div>
+		</div>
+	</article>
+
+  <!-- Page Footer -->
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 col-md-10 mx-auto">
+					<div id="disqus_thread"></div>
+						<script>
+						    (function() {  // DON'T EDIT BELOW THIS LINE
+						        var d = document, s = d.createElement('script');
+
+						        s.src = 'https://jpmakangiras.disqus.com/embed.js';
+
+						        s.setAttribute('data-timestamp', +new Date());
+						        (d.head || d.body).appendChild(s);
+						    })();
+						</script>
+						<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>

@@ -1,0 +1,76 @@
+body {
+	background-image: url("../assets/img/straws.png");
+}
+
+header {
+	margin-top: 20px;
+	text-align: center;
+	font-size: 20px;
+	font-family: 'Amatic SC', cursive;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+} 
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    color: red;
+}
+
+ul, li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.position {
+	margin-top: 5%;
+	margin-left: 25%;
+	margin-right: 25%;
+	text-align: justify;
+}
+
+.position-post	{
+	margin-top: 5%;
+	margin-left: 15%;
+	margin-right: 15%;
+	text-align: justify;
+}
+
+.fb-comments {
+	margin-top: 5%;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+#year {
+	font-family: 'Oswald', sans-serif;
+}
+
+#arsip-post-title {
+	font-family: 'Lemonada', cursive;
+	font-size: 15px;
+}
+
+#date {
+	font-family: 'Dancing Script', cursive;
+	font-size: 15px;
+}
+
+#kontak-content	{
+	font-family: 'Quicksand', sans-serif;
+}
+
+#post-title {
+	font-family: 'Poiret One', cursive;
+}
+
+#post-content	{
+	font-family: 'Quicksand', sans-serif;
+}
+

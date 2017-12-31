@@ -1,0 +1,51 @@
+a {
+  color: #212529;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s; }
+  a:focus, a:hover {
+    color: #e95420; }
+
+    footer.footer {
+      padding-bottom: 2rem; }
+
+.post-preview > a {
+  color: #212529; }
+  .post-preview > a:focus, .post-preview > a:hover {
+    text-decoration: none;
+    color: #e95420; }
+  .post-preview > a > .post-title {
+    font-size: 25px;
+    margin-top: 30px;
+    margin-bottom: 10px; }
+  .post-preview > a > .post-subtitle {
+    font-weight: 300;
+    margin: 0 0 10px; }
+
+.post-preview > .post-meta {
+  font-size: 15px;
+  font-style: italic;
+  margin-top: 0;
+  color: #868e96; }
+  .post-preview > .post-meta > a {
+    text-decoration: none;
+    color: #212529; }
+    .post-preview > .post-meta > a:focus, .post-preview > .post-meta > a:hover {
+      text-decoration: underline;
+      color: #e95420; }
+
+@media only screen and (min-width: 768px) {
+  .post-preview > a > .post-title {
+    font-size: 32px; } }
+
+    .social-media-area {
+      margin-right: 0.5rem;
+    }
+
+.title {
+    font-family: 'Rosario', sans-serif;
+}
+
+.meta {
+  font-family: 'Istok Web', sans-serif;
+}
