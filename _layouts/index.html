@@ -1,12 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="{{ site.description }}">
-    <meta name="author" content="{{ site.name }}">
-
-    <title>{{ page.title }}</title>
+    <!-- Meta & Title -->
+    {% include description.html %}
 
     <!-- Bootstrap Core CSS -->
     <link href="../assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -24,13 +20,12 @@
       <div class="container text-center my-auto">
         <h1 class="mb-1 authordesc">Julio</h1>
         <h3 class="mb-5 authordesc">
-          <em>Web Developer</em>
+          <em>Software Engineer</em>
         </h3>
-        <a class="btn btn-dark btn-xl menu" href="{{ site.baseurl }}/blog">Blog</a>
-        <a class="btn btn-success btn-xl menu" href="#" onclick="alert('nanti diupdate')">Portfolio</a>
+        <a class="btn btn-dark btn-xl menu" href="{{ site.baseurl }}/media">Media</a>
+        <a class="btn btn-success btn-xl menu" href="#" onclick="alert('*')">Portfolio</a>
         <a class="btn btn-danger btn-xl menu" href="{{ site.baseurl }}/copyright">Copyright</a>
       </div>
     </header>
-  {% include footer.html %}
   </body>
 </html>
